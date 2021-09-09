@@ -1,0 +1,21 @@
+body {
+    background:lavender;
+    font-size: 2em;
+}
+
+#title {
+    font-size: 4em;
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+}
+
+#skills-list {
+    list-style-type: none;
+}
+
+.list-item {
+    margin-top: 1rem;
+}
