@@ -1,0 +1,390 @@
+/* 
+    File: UJEI_wellness_about.css
+    Name: Haemi Lee
+    Class: CS 325, January 2022
+    Final Project
+    Due date: 01/27/2022 */
+
+    @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+    
+    body{
+        background-color: #F9F7F5;
+        overflow-x: hidden;
+    }
+    a:link{
+        text-decoration: none;
+        color: inherit;
+    }
+    a:visited{
+        text-decoration: none;
+        color: inherit;
+    }
+    p{
+        color: #4d4730;
+        font-family: "Jost";
+        font-weight:bold;
+        font-size: 1.25vw;
+    }
+    h1{
+        color: #4d4730;
+        font-family: 'Hurricane', cursive;
+        font-size: 3.5vw;
+    }
+    h2{
+        color: #4d4730;
+        font-family: 'Hurricane', cursive;
+        font-size: 2.5vw;
+    }
+    
+ /* NAVIGATION BAR */
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 9vh; /* controls height of nav */
+    background-color: #F9F7F5; /* change to desired color */
+    border-bottom: 2px solid #4d4730;
+}
+.logoname{
+    display: inline-block;
+    /* font-family: 'La Belle Aurore', cursive; */
+    font-family: 'Hurricane', cursive;
+    position: relative;
+    /* top: 10px;
+    left: 15px; */
+    color: #4D4730;
+    font-weight:bold;
+    font-size: 2vw;
+    line-height: 54px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo {
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    top: -12px;
+    vertical-align: top;
+    max-width: 4%;
+    height: auto;
+    border: 1px solid #4d4730;
+    margin-right: 20px;
+    margin-top: 15px;    
+}
+.navigation-bar a {
+    font-family: "Jost";
+    font-weight:bold;
+    font-size: 1.25vw;
+    color: #4d4730;
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1px;
+    margin-right: 7%;
+    height: 20%;        
+    line-height: 80px;    
+    text-decoration: none;
+}
+.navigation-bar a:visited{
+    color: #4d4730;
+}
+.navigation-bar a:hover{
+    font-size: 1.5vw;
+    font-weight: bolder;
+    background-color:#4d473098;
+}
+
+.aboutMain{
+    position: relative;
+    margin: 15px;
+    max-width: 30%;
+}
+.intro{
+    position: absolute;
+    left: 40%;
+    top: 100px;
+}
+.description{
+    font-size: 2vw;
+    max-width: 60%;
+}
+span:after,
+span:before{
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+}
+.navAbout{
+    font-family: "Jost";
+    font-style: bold;
+    font-size: 1.25vw;
+}
+.navAbout a:hover{
+    font-size: 1.5vw;
+    font-weight: bolder;
+    background-color:#4d47302d;
+}
+
+.resizeBackGround{
+    line-height: 1%;
+    /* width: 500%; */
+    max-width: 100%;
+    object-fit: contain;
+    overflow-x: hidden;
+    position:relative;
+}
+
+.hand1{
+    max-width: 35%;
+    position: absolute;
+    bottom: -5%;
+    left: 1%;
+    z-index: 500;
+}
+
+.hand2{
+    max-width: 35%;
+    position: absolute;
+    top: 7%;
+    right: 5%;
+    z-index: 500;
+}
+
+.benefitsContainer {
+    position: relative;
+    margin-top: 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.benefits {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.benefitsDescription{
+    position: absolute;
+    top: 23%;
+    left: 5%;
+    text-align: left;
+    max-width: 90%;
+    font-family: "Jost";
+    font-weight:bold;
+    font-size: 1.25vw;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 1%;
+    margin: 2%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.benefitsCols{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    text-align: center;
+    max-width: 90%;
+    font-family: "Jost";
+    font-weight:bold;
+    font-size: 1.25vw;
+}
+
+#machineFeatures{
+    position: relative;
+    left: 5%;
+}
+
+.mfblob{
+    position: relative;
+    max-width: 70%;
+}
+.mf1Description{
+    max-width: 30%;
+}
+
+.mfcolumn {
+    float: left;
+    padding: 10px;
+}
+.left{
+    width: 25%;
+    margin-left: 25%;
+}
+.right{
+    width: 25%;
+}
+  
+  /* Clear floats after the columns */
+  .mfrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+.Preparation{
+    position: relative;
+    text-align: center;
+
+}
+
+.howToprep{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+
+}
+.prepDescription{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-align: left;
+    max-width: 60%;
+    font-family: "Jost";
+    font-weight:bold;
+    font-size: 1.25vw;
+}
+.PostTreatment{
+    position: relative;
+    top:-100px;
+}
+.postT{
+    position: relative;
+    left:5%;
+}
+
+.postDescription{
+    position: relative;
+    max-width: 80%;
+    left: 5%;
+}
+
+.Disclaimer{
+    position: relative;
+    left: 5%;
+}
+.drinkWater{
+    max-width: 25%;
+    position:absolute;
+    right: 5%;
+    top: 40%;
+    /* margin-bottom: 10%; */
+    z-index: 600;
+}
+
+.disclaimerHeader{
+    position: relative;
+}
+.disclaimerDescription{
+    position: relative;
+    text-align: left;
+    max-width: 80%;
+    font-family: "Jost";
+    font-weight:bold;
+    font-size: 1.25vw;
+}
+
+/* footer */
+footer{
+    position: relative;
+    margin-top: 5%;
+    background-color: #EBE8E4;
+    padding: 1%;
+}
+
+.logof {
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    vertical-align: top;
+    max-width: 7%;
+    height: auto;
+    border: 1px solid #4d4730;
+    margin-right: 20px;
+    margin-top: 5px;    
+    margin-bottom: 10px;
+}
+
+.insta {
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    vertical-align: top;
+    max-width: 7%;
+    height: auto;
+    margin-right: 20px;
+
+}
+.subscribe{
+    position: relative;
+    left: 20px;
+    margin-top: 20px;
+}
+.subscribeButtn{
+    color: #4d4730;
+    font-family: "Jost";
+}
+.email{
+    color: #4d4730;
+    font-family: "Jost";
+}
+
+.instafollow{
+    display: inline-block;
+    /* font-family: 'La Belle Aurore', cursive; */
+    font-family: 'Hurricane', cursive;
+    position: relative;
+    left: 5px;
+    color: #4D4730;
+    font-weight:bold;
+    font-size: 1.75vw;
+    line-height: 54px;
+}
+.logoname2{
+    display: inline-block;
+    /* font-family: 'La Belle Aurore', cursive; */
+    font-family: "Jost", bold;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    color: #4D4730;
+    font-weight:bold;
+    font-size: 1.5vw;
+    line-height: 54px;
+}
+
+.footer_column {
+    float: left;
+    padding: 10px;
+  }
+  
+.leftf {
+    width: 65%;
+}
+  
+.middlef {
+    width: 10%;
+    text-align: left;
+    line-height: 1.0;
+}
+
+.rightf{
+    width: 17%;
+    text-align: left;
+    line-height: 0.5;
+}
+  
+.footer_row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

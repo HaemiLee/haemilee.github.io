@@ -1,0 +1,223 @@
+/* 
+    File: UJEI_wellness_contact.css
+    Name: Haemi Lee
+    Class: CS 325, January 2022
+    Final Project
+    Due date: 01/27/2022 */
+
+    @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+    
+    body{
+        background-color: #F9F7F5;
+        overflow-x: hidden;
+    }
+    a:link{
+        text-decoration: none;
+        color: inherit;
+    }
+    a:visited{
+        text-decoration: none;
+        color: inherit;
+    }
+    p{
+        color: #4d4730;
+        font-family: "Jost";
+        font-weight:bold;
+        font-size: 1.25vw;
+    }
+    h1{
+        color: #4d4730;
+        font-family: 'Hurricane', cursive;
+        font-size: 3.5vw;
+    }
+    h2{
+        color: #4d4730;
+        font-family: 'Hurricane', cursive;
+        font-size: 2.5vw;
+    }
+    
+/* NAVIGATION BAR */
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 9vh; /* controls height of nav */
+    background-color: #F9F7F5; /* change to desired color */
+    border-bottom: 2px solid #4d4730;
+}
+.logoname{
+    display: inline-block;
+    /* font-family: 'La Belle Aurore', cursive; */
+    font-family: 'Hurricane', cursive;
+    position: relative;
+    /* top: 10px;
+    left: 15px; */
+    color: #4D4730;
+    font-weight:bold;
+    font-size: 2vw;
+    line-height: 54px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo {
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    top: -12px;
+    vertical-align: top;
+    max-width: 4%;
+    height: auto;
+    border: 1px solid #4d4730;
+    margin-right: 20px;
+    margin-top: 15px;    
+}
+.navigation-bar a {
+    font-family: "Jost";
+    font-weight:bold;
+    font-size: 1.25vw;
+    color: #4d4730;
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1px;
+    margin-right: 7%;
+    height: 20%;        
+    line-height: 80px;    
+    text-decoration: none;
+}
+.navigation-bar a:visited{
+    color: #4d4730;
+}
+.navigation-bar a:hover{
+    font-size: 1.5vw;
+    font-weight: bolder;
+    background-color:#4d473098;
+}
+
+.calendar{
+    right: 5%;
+    top: 15%;
+    position: absolute;
+    width: 60%;
+    height: 500px;
+}
+    .title{
+        text-align: left;
+        margin-left: 10%;
+    }
+    .send{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Jost";
+    }
+    .subscribeButtn{
+        color: #4d4730;
+        font-family: "Jost";
+    }
+    .email{
+        color: #4d4730;
+        font-family: "Jost";
+    }
+
+
+    .Email{
+        color: #4d4730;
+        font-family: "Jost";
+        font-weight:bold;
+        font-size: 1.25vw;
+        background-color: #EBE8E4;  
+        padding: 40px;
+        width: 300px;
+        display: block;
+        margin-left: 3%;
+        /* margin-left: auto;
+        margin-right: auto; */
+        box-shadow: 5px 5px #88888852;
+    }
+    footer{
+        margin-top: 5%;
+        background-color: #EBE8E4;
+        padding: 1%;
+    }
+    
+    .logof {
+        position: relative;
+        display: inline-block;
+        left: 20px;
+        vertical-align: top;
+        max-width: 7%;
+        height: auto;
+        border: 1px solid #4d4730;
+        margin-right: 20px;
+        margin-top: 5px;    
+        margin-bottom: 10px;
+    }
+    
+    .insta {
+        position: relative;
+        display: inline-block;
+        left: 20px;
+        vertical-align: top;
+        max-width: 7%;
+        height: auto;
+        margin-right: 20px;
+    
+    }
+    .subscribe{
+        position: relative;
+        left: 20px;
+        margin-top: 20px;
+    }
+    
+    .instafollow{
+        display: inline-block;
+        /* font-family: 'La Belle Aurore', cursive; */
+        font-family: 'Hurricane', cursive;
+        position: relative;
+        left: 5px;
+        color: #4D4730;
+        font-weight:bold;
+        font-size: 1.75vw;
+        line-height: 54px;
+    }
+    .logoname2{
+        display: inline-block;
+        /* font-family: 'La Belle Aurore', cursive; */
+        font-family: "Jost", bold;
+        position: relative;
+        top: 10px;
+        left: 15px;
+        color: #4D4730;
+        font-weight:bold;
+        font-size: 1.5vw;
+        line-height: 54px;
+    }
+    
+    .footer_column {
+        float: left;
+        padding: 10px;
+      }
+      
+    .left {
+        width: 65%;
+    }
+      
+    .middle {
+        width: 10%;
+        text-align: left;
+        line-height: 1.0;
+    }
+    
+    .right{
+        width: 17%;
+        text-align: left;
+        line-height: 0.5;
+    }
+      
+    .footer_row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
