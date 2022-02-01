@@ -20,8 +20,6 @@ $(document).ready(function() {
 
     function processRequest(data, status) {
         if(status == "success") {
-            // alert(data);
-            alert("Submitted Successfully!");
             document.getElementById('name').value='';
             document.getElementById('email').value='';
             document.getElementById('subject').value='';
