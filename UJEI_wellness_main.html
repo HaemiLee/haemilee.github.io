@@ -1,0 +1,173 @@
+<!--
+    File: UJEI_wellness_main.html
+    Name: Haemi Lee
+    Class: CS 325, January 2022
+    Final Project
+    Due date: 01/27/2022
+-->
+
+<!Doctype html>
+<html lang = "en">
+    <head>
+        <title>UJEI Wellness Main</title>
+        <link rel="stylesheet" type="text/css" href="UJEI_wellness_main.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+            type="text/javascript"></script>
+        <script src="UJEI_wellness_main.js"></script>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navigation-bar" id = "home">
+            <img class="logo" src="logo.png">
+            <nobr class="logoname">UJei Wellness</nobr>
+            <a href="UJEI_wellness_contact.html">CONTACT</a>
+            <a href="#pricing">PRICING</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="UJEI_wellness_about.html">ABOUT</a>
+            <a href="#home">HOME</a>
+        </nav>
+
+
+        <header>
+            <img class = "headermainimg" src = "headermainimg.png">
+            <h1 class = "TheRollshaper">The RollShaper</h1>
+            <p class = "TheRollshaperdescription">The UJEI Wellness machine is the best on the market! This machine is a lymphatic drainage roll shaper to help you achieve overall health and your desired body figure.</p>
+        </header>
+        <img class = "womanoverlap" src = "woman1.png">
+        <img class = "birdoverlap" src = "bird.png">
+
+        <div class = "missionContainer">
+            <img src="ourmissionBLOB.png" alt="ourmissionBLOB" class = "resizeBackGround">
+            <div class="OurMission"><h1>Our Mission</h1></div>
+            <div class="OurMissiondescription"><p>UJEI Wellness is determined to provide not just a betterment of your health, body goals, and mental health, but also to provide an experience that you would not be able to get anywhere else. 
+
+                Book now to start your health journey.</p></div>
+            <img src="Ourmissionimg.png" alt="Ourmissionimg" class = "Ourmissionimg">
+            <img class = "womanoverlap2" src = "woman2.png">
+        </div>
+            <h1 class = "ourservices">Our Services</h1>
+            <div class="row">
+                <div class="column">
+                    <img src="collagenService.png" alt="servicesIMG" class = "servicesIMG">
+                  <h2>Collagen Lamp</h2>
+                  <p>The UJEI Wellness Roller machine uses a collagen lamp that utilizes specially selected radiating wavelengths that affects and speeds up the skin repair process. 
+                </p>
+                </div>
+                <div class="column">
+                    <img src="infaredService.png" alt="servicesIMG" class = "servicesIMG">
+                  <h2>Infrared Lights</h2>
+                  <p>
+                    Infrared therapy has many roles in the human body. These include detoxification, pain relief, reduction of muscle tension, relaxation, improved circulation, weight loss, skin purification, lowered side effects of diabetes, boosting of the immune system and lowering of blood pressure
+                </p>
+                </div>
+                <div class="column">
+                    <img src="woddenService.png" alt="servicesIMG" class = "servicesIMG">
+                  <h2>Wooden Rollers</h2>
+                  <p>
+                    We have the highest quality wooden rollers on the machine that gives you the highest quality experience 
+                </p>
+                </div>
+            </div>
+            
+
+            <div class = "Gallerycontainer" id = 'gallery'>
+                <img src="GalleryBLOB.png" alt="GalleryBLOB" class = "resizeBackGround">
+                <div class="Gallery"><h1>Gallery</h1></div>
+                <!-- <div id = "galleryNum" value = "4"></div> -->
+                <p><input type="text" id="galleryNum" name = "galleryNum" value="1"/></p>
+                <img id = "next_img"  class = "Galleryimg" src = "galleryIMG1.png">
+                <!-- <button type="button" class = "prev">Prev</button> -->
+                <button type="submit" id = "next_img" class = "next">Next</button>
+            </div>
+
+        <div>
+            <h1 class = "ourprices" id = "pricing">Our Prices</h1>
+
+            <div class="pricerow">
+                <div class="pricecolumn">
+                    <div class = "containerPrices">
+                        <img src="priceBOX.png" alt="priceBox" class = "priceBox">
+                        <div class = "text-block">
+                            <h3 class = "priceLabel">ONE TIME SESSION</h3> <br>
+                            <p class = "priceDesc">One 45 minute session</p> <br>
+                            <h3 class = "price">$60</h3> 
+                            <a href="https://squareup.com/appointments/book/vp9zy8th9b9kl9/LW52G5AW21XJQ/services"><img src="bookbutton.png" alt="book" class = "bookbtn"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricecolumn">
+                    <div class = "containerPrices">
+                        <img src="priceBOX.png" alt="priceBox" class = "priceBox">
+                        <div class = "text-block">
+                            <h3 class = "priceLabel">MONTHLY ONCE A WEEK MEMBERSHIP</h3>
+                            <p class = "priceDesc">One 45 minute session per week for a month</p>
+                            <h3 class = "price">$200</h3>
+                            <a href="https://squareup.com/appointments/book/vp9zy8th9b9kl9/LW52G5AW21XJQ/services"><img src="bookbutton.png" alt="book" class = "bookbtn"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricecolumn">
+                    <div class = "containerPrices">
+                        <img src="priceBOX.png" alt="priceBox" class = "priceBox">
+                        <div class = "text-block">
+                            <h3 class = "priceLabel">MONTHLY TWICE A WEEK MEMBERSHIP</h3>
+                            <p class = "priceDesc">Two 45 minute sessions per week for a month</p>
+                            <h3 class = "price">$300</h3>
+                            <a href="https://squareup.com/appointments/book/vp9zy8th9b9kl9/LW52G5AW21XJQ/services"><img src="bookbutton.png" alt="book" class = "bookbtn"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricecolumn">
+                    <div class = "containerPrices">
+                        <img src="priceBOX.png" alt="priceBox" class = "priceBox">
+                        <div class = "text-block">
+                            <h3 class = "priceLabel">MONTHLY UNLIMITED MEMBERSHIP</h3>
+                            <p class = "priceDesc">Unlimited 45 minute sessions a month</p> 
+                            <h3 class = "price">$350</h3>
+                            <a href="https://squareup.com/appointments/book/vp9zy8th9b9kl9/LW52G5AW21XJQ/services"><img src="bookbutton.png" alt="book" class = "bookbtn"></a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+
+        <div class="QRcontainer">
+            <img class = "QRcode" src = "QRcode.png">
+            <p class = "QRtxt">SCAN THE QR CODE TO BOOK ON YOUR PHONE</p>
+        </div>
+
+        <footer> 
+            <div class="footer_row">
+                <div class="footer_column left">
+                    <img class="logof" src="logo.png">
+                    <nobr class="logoname2">UJEI WELLNESS</nobr>
+                    <br>
+                    <!-- <label for="email">Email Address</label> -->
+                    <div class = "subscribe">
+                        <input class = "email" type="email" id="email" name="email" placeholder="Email Address">
+                        <input class = "subscribeButtn" type="Submit" value="Subscribe">
+                    </div>
+                    <br>
+                    <a href="https://www.instagram.com/ujeiwellness/"><img class="insta" src="instagram.png"></a>
+                    <a href="https://www.instagram.com/ujeiwellness/"><nobr class="instafollow">Follow us on @UJeiWellness</nobr></a>
+                </div>
+                <div class="footer_column middle">
+                  <p><a href="#home">HOME</a></p>
+                  <p><a href="UJEI_wellness_about.html">ABOUT</a></p>
+                  <P><a href="#gallery">GALLERY</a></P>
+                  <P><a href="#pricing">PRICING</a></P>
+                  <P><a href="UJEI_wellness_contact.html">CONTACT</a></P>
+                </div>
+                <div class="footer_column right">
+                  <p>+1 293 374 9374</p>
+                  <p>UJEIWELLNESS@GMAIL.COM</p> <br>
+                  <p>UJEI WELLNESS</p>
+                  <p>128 ENGLE ST UNIT B,</p>
+                  <p>ENGLEWOOD, NJ 07631</p> <br>
+                    <p>@UJEIWELLNESS</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
